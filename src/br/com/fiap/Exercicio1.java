@@ -21,17 +21,18 @@ public class Exercicio1 {
 			System.out.println("Olá, professor(a)! Seja bem-vindo(a) ao nosso sistema!");
 			
 			System.out.println("Digite a primeira nota: ");
-			nota1 = scan.nextInt();
+			nota1 = scan.nextDouble();
 			
 			System.out.println("Digite a segunda nota: ");
-			nota2 = scan.nextInt();
+			nota2 = scan.nextDouble();
 			
 			System.out.println("Digite a terceira nota: ");
-			nota3 = scan.nextInt();
+			nota3 = scan.nextDouble();
 			
 			System.out.println("Digite a quarta nota: ");
-			nota4 = scan.nextInt();
+			nota4 = scan.nextDouble();
 			
+			// Média das notas
 			double mediaNotas = (nota1 + nota2 + nota3 + nota4) / 4;
 			
 			System.out.println("A média de notas desse aluno é de: " + mediaNotas);
